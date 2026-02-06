@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Interaktive Explorationskarte für Okzitanien - Entdecke wilde Höhlen, spektakuläre Schluchten und atemberaubende Natur rund um Toulouse">
+    <meta name="keywords" content="Toulouse, Okzitanien, Höhlen, Schluchten, Wandern, Speläologie, Pyrenäen">
+    <meta name="author" content="Terra Incognita">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Terra Incognita - Explorationskarte Okzitanien">
+    <meta property="og:description"
+        content="Interaktive Karte zur Erkundung wilder Höhlen, Schluchten und Naturwunder rund um Toulouse">
+
+    <title>Terra Incognita - Explorationskarte Okzitanien</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts: Merriweather (Serif) & Inter (Sans) -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="bg-stone-100 h-screen flex flex-col overflow-hidden text-stone-800">
+
+    <!-- Header -->
+    <header class="modern-header text-white p-5 z-20 flex justify-between items-center shrink-0">
+        <div class="flex items-center gap-4">
+            <div class="glass p-3 rounded-xl backdrop-blur-sm shadow-lg">
+                <i class="fa-solid fa-compass text-3xl text-amber-400"></i>
+            </div>
+            <div>
+                <h1 class="text-2xl md:text-3xl font-bold tracking-tight leading-none"
+                    style="text-shadow: 0 2px 4px rgba(0,0,0,0.1)">Terra Incognita</h1>
+                <p class="text-xs md:text-sm text-emerald-100 uppercase tracking-wider font-semibold mt-1 opacity-90">
+                    Explorationskarte Okzitanien</p>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-1 flex flex-col md:flex-row overflow-hidden relative">
+
+        <!-- Sidebar (List) -->
+        <aside
+            class="w-full md:w-[450px] bg-stone-50 border-r border-stone-200 z-10 flex flex-col h-1/2 md:h-full shadow-2xl">
+
+            <!-- Filter Bar -->
+            <div class="p-5 border-b border-stone-200 glass sticky top-0 z-10 shadow-md">
+                <div class="flex justify-between items-baseline mb-4">
+                    <h2 class="text-sm font-bold text-stone-700 uppercase tracking-wide">Kategorien</h2>
+                    <span id="count-display"
+                        class="text-xs font-semibold text-stone-500 px-3 py-1 bg-stone-100 rounded-full">Loading...</span>
+                </div>
+                <div class="flex gap-2.5 overflow-x-auto pb-2 scrollbar-hide snap-x">
+                    <button onclick="filterMap('all')" class="filter-btn snap-start active-all"
+                        aria-label="Alle Orte anzeigen">
+                        Alle
+                    </button>
+
+                    <button onclick="filterMap('hoehle')" class="filter-btn snap-start" aria-label="Höhlen filtern">
+                        Höhlen
+                    </button>
+                    <button onclick="filterMap('schlucht')" class="filter-btn snap-start"
+                        aria-label="Schluchten filtern">
+                        Schluchten
+                    </button>
+                    <button onclick="filterMap('panorama')" class="filter-btn snap-start" aria-label="Natur filtern">
+                        Natur
+                    </button>
+                    <button onclick="filterMap('fossil')" class="filter-btn snap-start" aria-label="Fossilien filtern">
+                        <i class="fa-solid fa-fish-fins mr-1.5"></i>Fossilien
+                    </button>
+                </div>
+            </div>
+
+            <!-- Location List -->
+            <div id="location-list" class="flex-1 overflow-y-auto p-3 space-y-3 bg-stone-100/50" role="list"
+                aria-label="Liste der Orte">
+                <!-- Cards injected via JavaScript -->
+            </div>
+        </aside>
+
+        <!-- Map Container -->
+        <div id="map" class="w-full md:flex-1 h-1/2 md:h-full bg-stone-200 relative" role="application"
+            aria-label="Interaktive Karte">
+
+            <!-- Interactive Legend Gallery -->
+            <div
+                class="map-legend absolute bottom-6 right-6 glass p-5 rounded-2xl shadow-2xl text-xs w-72 z-[1000] backdrop-blur-md">
+                <h3 class="font-bold mb-4 text-stone-800 text-sm flex items-center gap-2">
+                    <i class="fa-solid fa-layer-group"></i>
+                    Entdecke die Kategorien
+                </h3>
+                <div class="grid grid-cols-2 gap-3">
+
+                    <!-- Höhlen -->
+                    <div class="legend-item group cursor-pointer" data-type="hoehle" onclick="filterMap('hoehle')">
+                        <div
+                            class="relative overflow-hidden rounded-lg shadow-md transition-all duration-300 group-hover:shadow-xl group-hover:scale-105">
+                            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=120&fit=crop"
+                                alt="Höhlen" class="w-full h-20 object-cover">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-2">
+                                <div class="flex items-center gap-2 text-white">
+                                    <span class="w-2.5 h-2.5 rounded-full bg-stone-600"></span>
+                                    <span class="font-bold text-xs">Höhlen</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Schluchten -->
+                    <div class="legend-item group cursor-pointer" data-type="schlucht" onclick="filterMap('schlucht')">
+                        <div
+                            class="relative overflow-hidden rounded-lg shadow-md transition-all duration-300 group-hover:shadow-xl group-hover:scale-105">
+                            <img src="https://images.unsplash.com/photo-1533414417583-f019b7d8b524?w=200&h=120&fit=crop"
+                                alt="Schluchten" class="w-full h-20 object-cover">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-2">
+                                <div class="flex items-center gap-2 text-white">
+                                    <span class="w-2.5 h-2.5 rounded-full bg-amber-500"></span>
+                                    <span class="font-bold text-xs">Schluchten</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Panorama -->
+                    <div class="legend-item group cursor-pointer" data-type="panorama" onclick="filterMap('panorama')">
+                        <div
+                            class="relative overflow-hidden rounded-lg shadow-md transition-all duration-300 group-hover:shadow-xl group-hover:scale-105">
+                            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=200&h=120&fit=crop"
+                                alt="Natur" class="w-full h-20 object-cover">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-2">
+                                <div class="flex items-center gap-2 text-white">
+                                    <span class="w-2.5 h-2.5 rounded-full bg-emerald-600"></span>
+                                    <span class="font-bold text-xs">Natur</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fossilien - Full Width -->
+                <div class="legend-item group cursor-pointer mt-3" data-type="fossil" onclick="filterMap('fossil')">
+                    <div
+                        class="relative overflow-hidden rounded-lg shadow-md transition-all duration-300 group-hover:shadow-xl group-hover:scale-102">
+                        <img src="https://images.unsplash.com/photo-1535565454739-863432ea3c0e?w=400&h=100&fit=crop"
+                            alt="Fossilien" class="w-full h-16 object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-2">
+                            <div class="flex items-center gap-2 text-white">
+                                <span class="w-2.5 h-2.5 rounded-full" style="background: #06b6d4"></span>
+                                <span class="font-bold text-xs"><i
+                                        class="fa-solid fa-fish-fins mr-1"></i>Fossilien-Fundorte</span>
+                                <span
+                                    class="ml-auto text-[10px] bg-white/20 px-2 py-0.5 rounded-full">Paläontologie</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </main>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <!-- Data & Script -->
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

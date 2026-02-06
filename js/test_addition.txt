@@ -1,0 +1,15 @@
+﻿    },
+
+    // --- TIEFE HÖHLEN FÜR SPELÄOLOGEN (50-300m) ---
+    {
+        id: 200,
+        title: "Grotte de Lombrives",
+        type: "hoehle",
+        lat: 42.826, lng: 1.635,
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        shortDesc: "Größte Höhle Europas  250m Tiefe.",
+        description: "Gigantisches Höhlensystem bei Ussat-les-Bains. Säle bis zu 100m hoch, 4km Gänge. Spektakuläre Konkrektionen. Führungen und wilde Touren möglich.",
+        details: "Tiefe: 250m. Touristische + speläologische Routen.",
+        routeLink: "https://www.grotte-lombrives.fr/"
+    }
+];

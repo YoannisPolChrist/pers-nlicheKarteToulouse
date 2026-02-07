@@ -1234,5 +1234,253 @@ const locations = [
         description: "Spektakuläre Schluchten mit jurassischen Kalken. Teil des geologischen Erbes von Midi-Pyrénées.",
         details: "~2,5h von Toulouse, Lozère/Aveyron.",
         routeLink: "https://www.geoforum.fr/topic/27380-le-patrimoine-geologique-de-midi-pyrenees/"
+    },
+
+    // === PLUS BEAUX VILLAGES DE FRANCE ===
+
+    {
+        id: 800,
+        title: "Cordes-sur-Ciel",
+        type: "stadt",
+        lat: 44.066, lng: 1.954,
+        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        shortDesc: "★★★ Gotisches Himmelsdorf!",
+        description: "1222 gegründete Bastide, schwebt über den Wolken. Mittelalterliche Gassen, Fachwerkhäuser, Katharer-Geschichte.",
+        details: "~1h von Toulouse. Plus Beaux Villages de France!",
+        routeLink: "https://www.google.com/maps/place/Cordes-sur-Ciel"
+    },
+    {
+        id: 801,
+        title: "Saint-Cirq-Lapopie",
+        type: "stadt",
+        lat: 44.465, lng: 1.670,
+        image: "https://images.unsplash.com/photo-1559827291-72ee739d0d9a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        shortDesc: "★★★ Spektakuläres Felsendorf!",
+        description: "Mittelalterliches Juwel an der Klippe über dem Lot. Eines der schönsten Dörfer Frankreichs!",
+        details: "~1,5h von Toulouse. Absolutes Muss!",
+        routeLink: "https://www.google.com/maps/place/Saint-Cirq-Lapopie"
+    },
+    {
+        id: 802,
+        title: "Puycelsi",
+        type: "stadt",
+        lat: 43.990, lng: 1.720,
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        shortDesc: "★★ Befestigte Bastide!",
+        description: "Festungsdorf mit Blick über die Forêt de Grésigne. 10. Jhd. Wehrturm, beeindruckende Stadtmauern.",
+        details: "~1h von Toulouse. Plus Beaux Villages!",
+        routeLink: "https://www.google.com/maps/place/Puycelsi"
+    },
+    {
+        id: 803,
+        title: "Bruniquel",
+        type: "stadt",
+        lat: 44.056, lng: 1.663,
+        image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        shortDesc: "★★ Zwei Burgen über dem Tal!",
+        description: "Zwei mittelalterliche Burgen auf Felsen. Malerische Gassen, Blick über die Aveyron-Schlucht.",
+        details: "~1h von Toulouse. Filmkulisse!",
+        routeLink: "https://www.google.com/maps/place/Bruniquel"
+    },
+    {
+        id: 804,
+        title: "Castelnau-de-Montmiral",
+        type: "stadt",
+        lat: 43.966, lng: 1.816,
+        image: "https://images.unsplash.com/photo-1464207687429-7505649dae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        shortDesc: "Typische Arkaden-Bastide!",
+        description: "Mittelalterliche Bastide mit Arkaden-Platz und Fachwerkhäusern. Gaillac-Weingebiet.",
+        details: "~1h von Toulouse. Plus Beaux Villages!",
+        routeLink: "https://www.google.com/maps/place/Castelnau-de-Montmiral"
+    },
+    {
+        id: 805,
+        title: "Auvillar",
+        type: "stadt",
+        lat: 44.068, lng: 0.901,
+        image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        shortDesc: "★★ Runde Markthalle!",
+        description: "Einzigartige runde Markthalle aus Stein! Blick über das Garonne-Tal. Jakobsweg-Station.",
+        details: "~1h von Toulouse. Plus Beaux Villages!",
+        routeLink: "https://www.google.com/maps/place/Auvillar"
+    },
+    {
+        id: 806,
+        title: "Conques",
+        type: "stadt",
+        lat: 44.599, lng: 2.397,
+        image: "https://images.unsplash.com/photo-1584799235813-aaf50775698c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        shortDesc: "★★★ Romanisches Juwel!",
+        description: "Abtei Sainte-Foy (UNESCO). Meisterwerk romanischer Kunst! Schatzkammer mit Goldstatuen.",
+        details: "~2h von Toulouse. Absolut einzigartig!",
+        routeLink: "https://www.google.com/maps/place/Conques"
+    },
+    {
+        id: 807,
+        title: "Saint-Bertrand-de-Comminges",
+        type: "stadt",
+        lat: 43.026, lng: 0.571,
+        image: "https://images.unsplash.com/photo-1530587191325-3db32d826c18?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        shortDesc: "★★ Römisches Erbe + Kathedrale!",
+        description: "Antike römische Stadt + mittelalterliche Kathedrale. UNESCO-Welterbe der Jakobswege.",
+        details: "~1,5h von Toulouse. Geschichte pur!",
+        routeLink: "https://www.google.com/maps/place/Saint-Bertrand-de-Comminges"
+    },
+    {
+        id: 808,
+        title: "Lautrec",
+        type: "stadt",
+        lat: 43.707, lng: 2.138,
+        image: "https://images.unsplash.com/photo-1544979590-37e9b47eb705?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        shortDesc: "Knoblauch-Hauptstadt!",
+        description: "Mittelalterliches Dorf & Heimat des rosa Knoblauchs. Windmühle, Fachwerkhäuser.",
+        details: "~1h von Toulouse. Plus Beaux Villages!",
+        routeLink: "https://www.google.com/maps/place/Lautrec"
+    },
+    {
+        id: 809,
+        title: "Fourcès",
+        type: "stadt",
+        lat: 43.992, lng: 0.228,
+        image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        shortDesc: "★★ Einziges Runddorf Gascogne!",
+        description: "Einzigartiges kreisförmiges Dorf mit Arkadenplatz. Bilderbuch-Gascogne!",
+        details: "~1,5h von Toulouse. Unique!",
+        routeLink: "https://www.google.com/maps/place/Fourcès"
+    },
+    {
+        id: 810,
+        title: "Penne",
+        type: "stadt",
+        lat: 44.073, lng: 1.733,
+        image: "https://images.unsplash.com/photo-1582719508461-905c673771fd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        shortDesc: "Ruinen auf dem Felsen!",
+        description: "Dramatische Burgruine auf Felssporn über der Aveyron. Mittelalterliches Dorf am Hang.",
+        details: "~1h von Toulouse. Fotogen!",
+        routeLink: "https://www.google.com/maps/place/Penne+Tarn"
+    },
+    {
+        id: 811,
+        title: "Rieux-Volvestre",
+        type: "stadt",
+        lat: 43.252, lng: 1.196,
+        image: "https://images.unsplash.com/photo-1617791160505-6f00504e3519?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        shortDesc: "Rosa Backsteinstadt!",
+        description: "Historische Bischofsstadt mit pink-rotem Backstein. Prächtige Kathedrale, Stadttore.",
+        details: "~45min von Toulouse. Plus Beaux Détours!",
+        routeLink: "https://www.google.com/maps/place/Rieux-Volvestre"
+    },
+
+    // === TARBES / LOURDES REGION ===
+
+    {
+        id: 820,
+        title: "Pic du Midi de Bigorre",
+        type: "panorama",
+        lat: 42.937, lng: 0.142,
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        shortDesc: "★★★ Legendärer Gipfel 2877m!",
+        description: "Observatorium mit 360° Panorama über die Pyrenäen! Sternwarte, Planetarium, 'Ponton dans le Ciel' Glasbrücke.",
+        details: "~2h von Toulouse. Seilbahn von La Mongie.",
+        routeLink: "https://www.picdumidi.com/"
+    },
+    {
+        id: 821,
+        title: "Cirque de Gavarnie",
+        type: "schlucht",
+        lat: 42.696, lng: -0.009,
+        image: "https://images.unsplash.com/photo-1464207687429-7505649dae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        shortDesc: "★★★ UNESCO Welterbe!",
+        description: "Spektakulärer Gebirgskessel mit Europas höchstem Wasserfall (423m)! Zu Fuß, Esel oder Pferd erreichbar.",
+        details: "~2,5h von Toulouse. Absolutes Naturwunder!",
+        routeLink: "https://www.google.com/maps/place/Cirque+de+Gavarnie"
+    },
+    {
+        id: 822,
+        title: "Pont d'Espagne & Lac de Gaube",
+        type: "panorama",
+        lat: 42.838, lng: -0.131,
+        image: "https://images.unsplash.com/photo-1559827291-72ee739d0d9a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        shortDesc: "★★★ Türkiser Bergsee!",
+        description: "Spektakuläre Wasserfälle + kristallklarer Bergsee auf 1.725m. Spiegelt den Vignemale-Gipfel!",
+        details: "~2h von Toulouse. Sessellift oder Wanderung.",
+        routeLink: "https://www.cauterets.com/pont-despagne/"
+    },
+    {
+        id: 823,
+        title: "Cauterets (Thermalstadt)",
+        type: "stadt",
+        lat: 42.889, lng: -0.114,
+        image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        shortDesc: "★★ Thermen + Berge!",
+        description: "Historischer Kurort mit Thermalbädern. Berühmte Berlingots-Bonbons! Tor zum Nationalpark.",
+        details: "~2h von Toulouse. Wellness + Wandern!",
+        routeLink: "https://www.cauterets.com/"
+    },
+    {
+        id: 824,
+        title: "Cirque de Troumouse",
+        type: "schlucht",
+        lat: 42.729, lng: 0.058,
+        image: "https://images.unsplash.com/photo-1530587191325-3db32d826c18?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        shortDesc: "★★ Geheimtipp-Kessel!",
+        description: "Größter Gebirgskessel der Pyrenäen! Weniger touristisch als Gavarnie. Murmeltier-Paradies!",
+        details: "~2,5h von Toulouse. Auto bis oben!",
+        routeLink: "https://www.google.com/maps/place/Cirque+de+Troumouse"
+    },
+    {
+        id: 825,
+        title: "Grottes de Bétharram",
+        type: "hoehle",
+        lat: 43.097, lng: -0.206,
+        image: "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        shortDesc: "★★ Höhle mit Boot + Zug!",
+        description: "Riesige Tropfsteinhöhle über 5 Etagen! Bootsfahrt auf unterirdischem Fluss + Minizug.",
+        details: "~1,5h von Toulouse. Einzigartig!",
+        routeLink: "https://www.betharram.com/"
+    },
+    {
+        id: 826,
+        title: "Lourdes (Wallfahrtsort)",
+        type: "stadt",
+        lat: 43.095, lng: -0.048,
+        image: "https://images.unsplash.com/photo-1584799235813-aaf50775698c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        shortDesc: "Weltberühmter Pilgerort!",
+        description: "Grotte von Massabielle, Basilika, Kreuzweg. Zweitgrößter Tourismusort Frankreichs nach Paris!",
+        details: "~1,5h von Toulouse.",
+        routeLink: "https://www.lourdes-infotourisme.com/"
+    },
+    {
+        id: 827,
+        title: "Pic du Jer (Lourdes)",
+        type: "panorama",
+        lat: 43.077, lng: -0.026,
+        image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        shortDesc: "Standseilbahn-Panorama!",
+        description: "Panoramablick über Lourdes, Tarbes und die Pyrenäen. Historische Standseilbahn seit 1900.",
+        details: "In Lourdes. Schnell erreichbar!",
+        routeLink: "https://www.google.com/maps/place/Pic+du+Jer"
+    },
+    {
+        id: 828,
+        title: "Brèche de Roland",
+        type: "schlucht",
+        lat: 42.694, lng: -0.038,
+        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        shortDesc: "★★ Legendäres Felstor!",
+        description: "40m hohe, 100m breite Felsspalte in 2804m Höhe. Der Legende nach von Roland mit Schwert geschlagen!",
+        details: "~2,5h + Wanderung. Für Erfahrene!",
+        routeLink: "https://www.google.com/maps/place/Brèche+de+Roland"
+    },
+    {
+        id: 829,
+        title: "Lac d'Ayous",
+        type: "panorama",
+        lat: 42.857, lng: -0.469,
+        image: "https://images.unsplash.com/photo-1544979590-37e9b47eb705?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        shortDesc: "★★ Pic du Midi d'Ossau Spiegel!",
+        description: "Bergseen-Kette mit perfekter Spiegelung des Pic du Midi d'Ossau. Eines der schönsten Wanderziele!",
+        details: "~2h von Toulouse + Wanderung.",
+        routeLink: "https://www.google.com/maps/place/Lac+d'Ayous"
     }
 ];

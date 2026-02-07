@@ -61,8 +61,17 @@
         <aside
             class="w-full md:w-[450px] bg-stone-50 border-r border-stone-200 z-10 flex flex-col h-1/2 md:h-full shadow-2xl">
 
-            <!-- Filter Bar -->
-            <div class="p-5 border-b border-stone-200 glass sticky top-0 z-10 shadow-md">
+            <!-- Mobile Filter Toggle Button -->
+            <button id="mobile-filter-toggle" onclick="toggleMobileFilters()"
+                class="md:hidden w-full p-3 bg-emerald-600 text-white font-bold flex items-center justify-center gap-2 shadow-lg">
+                <i class="fa-solid fa-filter"></i>
+                <span>Kategorien</span>
+                <i id="filter-chevron" class="fa-solid fa-chevron-down transition-transform"></i>
+            </button>
+
+            <!-- Filter Bar (hidden on mobile by default) -->
+            <div id="filter-bar"
+                class="p-5 border-b border-stone-200 glass sticky top-0 z-10 shadow-md hidden md:block">
                 <div class="flex justify-between items-baseline mb-4">
                     <h2 class="text-sm font-bold text-stone-700 uppercase tracking-wide">Kategorien</h2>
                     <span id="count-display"

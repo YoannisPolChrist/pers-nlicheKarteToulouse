@@ -21,8 +21,14 @@ document.addEventListener('DOMContentLoaded', () => {
 // ============================================
 function initializeMap() {
     // Initialize map centered on Toulouse
+    // Check if mobile
+    const isMobile = window.innerWidth < 768;
+
     map = L.map('map', {
-        zoomControl: false
+        zoomControl: false,
+        preferCanvas: true,
+        updateWhenZooming: false,
+        updateWhenIdle: true
     }).setView([43.604, 1.444], 8);
 
     // Add zoom control to bottom right
@@ -57,7 +63,7 @@ function initializeMap() {
 
     L.control.layers(baseLayers, null, {
         position: 'topright',
-        collapsed: false
+        collapsed: isMobile
     }).addTo(map);
 }
 
@@ -351,6 +357,23 @@ document.addEventListener('keydown', (e) => {
 // ============================================
 // EXPOSE FUNCTIONS GLOBALLY
 // ============================================
+// ============================================
+// MOBILE FILTER TOGGLE
+// ============================================
+function toggleMobileFilters() {
+    const filterBar = document.getElementById('filter-bar');
+    const chevron = document.getElementById('filter-chevron');
+
+    if (filterBar.classList.contains('hidden')) {
+        filterBar.classList.remove('hidden');
+        chevron.style.transform = 'rotate(180deg)';
+    } else {
+        filterBar.classList.add('hidden');
+        chevron.style.transform = 'rotate(0deg)';
+    }
+}
+
 window.filterMap = filterMap;
 window.focusLocation = focusLocation;
 window.toggleGuide = toggleGuide;
+window.toggleMobileFilters = toggleMobileFilters;

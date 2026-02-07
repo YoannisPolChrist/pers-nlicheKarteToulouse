@@ -9,7 +9,7 @@ const locations = [
         shortDesc: "Einstieg ins legendäre Trombe-Netzwerk.",
         description: "Foren-Mythos. Man wandert zum gewaltigen Portal. ACHTUNG: Nur Eingangsbereich sicher, dahinter tödliches Labyrinth (Längstes Netz Frankreichs).",
         details: "Nur für erfahrene Wanderer/Speläologen.",
-        routeLink: "https://www.visugpx.com/1CY3SRX8TT"
+        routeLink: "https://www.google.com/search?q=Grotte+de+Pène+Blanque&hl=de"
     },
     {
         id: 17,
@@ -20,7 +20,7 @@ const locations = [
         shortDesc: "Riesiger Tunnel, frei zugänglich.",
         description: "Keine Kasse, kein Licht. Ein gewaltiger Durchgang im Berg bei Ussat. Historisch von Katharern genutzt. Extrem atmosphärisch.",
         details: "Taschenlampe reicht für den Hauptgang.",
-        routeLink: "https://www.ariege-pyrenees.com/ussat/grotte-des-eglises/tabid/2578/offreid/75e2f708-3642-4357-9d7a-777610078049"
+        routeLink: "https://www.google.com/search?q=Grotte+des+Églises&hl=de"
     },
     {
         id: 18,
@@ -31,7 +31,7 @@ const locations = [
         shortDesc: "Der 'schmutzige' Klassiker.",
         description: "Montagne Noire (bei Caunes). Enger Einstieg ('Briefkasten'), dann weite Säle. Knie- und Ellbogenschützer empfohlen! Ein echter Abenteuerspielplatz.",
         details: "Einstiegshöhle vieler lokaler Clubs.",
-        routeLink: "https://www.visorando.com/randonnee-notre-dame-du-cros-et-le-sentier-des-m/"
+        routeLink: "https://www.google.com/search?q=Trou+de+la+Taupe&hl=de"
     },
     {
         id: 26,
@@ -42,7 +42,7 @@ const locations = [
         shortDesc: "Speläo-Legende im Arbas-Massiv.",
         description: "Ort der Pionierleistungen von Norbert Casteret. Der 'tödliche Schacht'. Nur der Wanderweg zum Einstieg ist sicher. Extreme vertikale Gefahr.",
         details: "Historischer Ort der Höhlenforschung.",
-        routeLink: "https://www.visugpx.com/bQo9vXhK8G"
+        routeLink: "https://www.google.com/search?q=Gouffre+de+la+Henne+Morte&hl=de"
     },
     {
         id: 27,
@@ -53,7 +53,7 @@ const locations = [
         shortDesc: "Smaragdgrüne Cenote am Meer.",
         description: "Ein eingestürzter Höhlendeckel füllte sich mit Meerwasser. Sieht aus wie Mexiko. Baden streng verboten (Todesgefahr), aber der Blick ist magisch.",
         details: "Geologisches Unikat im Massif de la Clape.",
-        routeLink: "https://www.visorando.com/randonnee-le-gouffre-de-l-oeil-doux-et-la-plage/"
+        routeLink: "https://www.google.com/search?q=Gouffre+de+l'Œil+Doux&hl=de"
     },
     {
         id: 28,
@@ -64,7 +64,7 @@ const locations = [
         shortDesc: "Die 'atmende' Quelle.",
         description: "Weltweit seltene intermittierende Quelle. Im Sommer stoppt der Fluss für ca. 30min komplett und startet dann wieder. Ein riesiges unterirdisches Siphon-System.",
         details: "Direkt an der Straße, aber geologisch Weltklasse.",
-        routeLink: "https://www.ariege-pyrenees.com/fougax-et-barrineuf/fontaine-intermittente-de-fontestorbes/tabid/2578/offreid/b429074d-9a94-4340-a083-02f5c765799a"
+        routeLink: "https://www.google.com/search?q=Fontaine+de+Fontestorbes&hl=de"
     },
     {
         id: 29,
@@ -75,7 +75,7 @@ const locations = [
         shortDesc: "Tuffstein-Wasserfälle.",
         description: "30m hohe Kaskaden haben bizarre Kalktuff-Formationen (Travertin) geschaffen. Wirkt wie im Dschungel. Sehr beliebt in Foto-Foren.",
         details: "Kurzer, aber rutschiger Zustieg.",
-        routeLink: "https://www.ariege-pyrenees.com/roquefort-les-cascades/cascades-de-la-turasse/tabid/2578/offreid/89938b82-f5c2-4a0b-9679-2420455a7940"
+        routeLink: "https://www.google.com/search?q=Roquefort-les-Cascades&hl=de"
     },
     {
         id: 35,
@@ -86,7 +86,7 @@ const locations = [
         shortDesc: "Mysteriöser blauer Quelltopf.",
         description: "Versteckt im Wald bei Salvagnac-Cajarc. Ein tiefblauer Siphon, Eingang zu einem riesigen Unterwassersystem.",
         details: "Magische Atmosphäre, Baden verboten (Soggefahr!).",
-        routeLink: "https://www.tourisme-lot.com/offres/le-gouffre-de-lantouy-cajarc-fr-3083103/"
+        routeLink: "https://www.google.com/search?q=Gouffre+de+Lantouy&hl=de"
     },
     {
         id: 2,
@@ -97,7 +97,7 @@ const locations = [
         shortDesc: "Monumentales Portal, 1632m Höhe.",
         description: "Auch 'Tute de l'Ours'. Zugang über anspruchsvolle Wanderung von Montségur. Großes System mit Stalaktiten.",
         details: "Status: Wild/Eigenständig. Ausrüstung: Starke Lampen, GPS.",
-        routeLink: "https://www.visorando.com/randonnee-grotte-de-la-caunha.html"
+        routeLink: "https://www.google.com/search?q=Grotte+de+la+Caunha&hl=de"
     },
     {
         id: 3,
@@ -108,7 +108,7 @@ const locations = [
         shortDesc: "Aktive Flusshöhle bei Saurat.",
         description: "Über 6km Galerien. Charakteristische 'Coups de Gouge'. WARNUNG: Bei Regen Lebensgefahr durch Flutung!",
         details: "Vorsicht: Hydrologie beachten! Aktiver Bachlauf.",
-        routeLink: "https://www.speleteaux.com/speleologie/grotte-de-siech/"
+        routeLink: "https://www.google.com/search?q=Grotte+de+Siech&hl=de"
     },
 
     // --- HOBBY-SPÉLÉO (Micro-Explo) ---
@@ -121,7 +121,7 @@ const locations = [
         shortDesc: "Der 'Initiations'-Klassiker.",
         description: "Bei St. Antonin. Kleine Eingänge führen in schöne, weiße Sinter-Säle. Teilweise muss man kriechen (Bauchlage), aber technisch einfach.",
         details: "Schmutzige Kleidung einplanen! Ca. 150m Länge.",
-        routeLink: "https://www.visorando.com/randonnee-le-cirque-de-bone/"
+        routeLink: "https://www.google.com/search?q=Grotte+de+la+Dame+Blanche&hl=de"
     },
     {
         id: 37,
@@ -132,7 +132,7 @@ const locations = [
         shortDesc: "Die befestigte Höhle.",
         description: "Direkt bei Tarascon. Ein riesiges Portal, das im Mittelalter zugemauert wurde. Großer, hoher Saal. Sehr einfach begehbar.",
         details: "Historisch extrem spannend. Taschenlampe reicht.",
-        routeLink: "https://www.histariege.com/sabart.htm"
+        routeLink: "https://www.google.com/search?q=Grotte+de+Sabart&hl=de"
     },
     {
         id: 38,
@@ -143,7 +143,7 @@ const locations = [
         shortDesc: "Riesiger Durchgangstunnel.",
         description: "Im Volp-Tal. Ein gewaltiger, waagerechter Tunnel, durch den man bequem spazieren kann. Wurde schon in der Steinzeit genutzt.",
         details: "Perfekt für den ersten Kontakt mit der Unterwelt.",
-        routeLink: "https://www.ariege-pyrenees.com/prat-bonrepaux/grotte-du-peyort/tabid/2578/offreid/75e2f708-3642-4357-9d7a-777610078049"
+        routeLink: "https://www.google.com/search?q=Grotte+de+Peyort&hl=de"
     },
     {
         id: 39,
@@ -154,7 +154,7 @@ const locations = [
         shortDesc: "Höhlenforschung am Meer.",
         description: "Ein seltenes Phänomen: Karst direkt an der Küste von Leucate. Mehrere Eingänge (manche eng). Fundort prähistorischer Artefakte.",
         details: "Verbindung von Strandtag und Höhlenforschen.",
-        routeLink: "https://www.tourisme-leucate.fr/decouvrir/nature-et-balades/grotte-des-fees/"
+        routeLink: "https://www.google.com/search?q=Grotte+des+Fées&hl=de"
     },
     {
         id: 40,
@@ -165,7 +165,7 @@ const locations = [
         shortDesc: "Adlerhorst in der Felswand.",
         description: "Gegenüber vom Pic St-Loup. Der Zugang erfordert Trittsicherheit am Fels. Großes Portal und weitläufige Säle.",
         details: "Steiler Zustieg! Helm aufsetzen.",
-        routeLink: "https://www.visorando.com/randonnee-le-chateau-de-vivier-et-la-grotte-de-l-h/"
+        routeLink: "https://www.google.com/search?q=Grotte+de+l'Hortus&hl=de"
     },
     {
         id: 41,
@@ -176,7 +176,7 @@ const locations = [
         shortDesc: "Sinterfahnen & Schönheit.",
         description: "Bei St-Bauzille-de-Putois. Bekannt für wunderschöne Konkretionen (bitte nicht anfassen!). Eingang etwas versteckt im Wald.",
         details: "Rutschiger Boden! Gute Schuhe sind Pflicht.",
-        routeLink: "https://www.visorando.com/randonnee-la-grotte-de-paques/"
+        routeLink: "https://www.google.com/search?q=Grotte+de+Pâques&hl=de"
     },
     {
         id: 42,
@@ -187,7 +187,7 @@ const locations = [
         shortDesc: "Abenteuer in der Montagne Noire.",
         description: "Kleines, aber feines System bei Roquefère. Engere Passagen und viel Lehm. Hier fühlt man sich wie ein echter Entdecker.",
         details: "Wechselklamotten im Auto lassen!",
-        routeLink: "https://www.visorando.com/randonnee-roquefere-la-cascade-de-cubservies-et-la/"
+        routeLink: "https://www.google.com/search?q=Grotte+de+Saint-Gorgon&hl=de"
     },
     {
         id: 43,
@@ -198,7 +198,7 @@ const locations = [
         shortDesc: "Teil des Arbas-Systems.",
         description: "Kleiner Bruder der großen Arbas-Schächte. Horizontaler Eingangsbereich, der einen sicheren Einblick in die Geologie gibt.",
         details: "Nicht tief eindringen ohne Ortskenntnis.",
-        routeLink: "https://www.komoot.com/fr-fr/guide/1559128/grottes-autour-de-arbas"
+        routeLink: "https://www.google.com/search?q=Grotte+du+Crapaud&hl=de"
     },
     {
         id: 44,
@@ -209,7 +209,7 @@ const locations = [
         shortDesc: "Spielplatz bei Rocamadour.",
         description: "In einem alten Steinbruch gelegen. Einfach zu finden und oft von lokalen Speläologie-Schulen für erste Übungen genutzt.",
         details: "Weiträumig und sicher.",
-        routeLink: "https://www.tourisme-lot.com/"
+        routeLink: "https://www.google.com/search?q=Grotte+de+la+Carrière&hl=de"
     },
     {
         id: 45,
@@ -220,7 +220,7 @@ const locations = [
         shortDesc: "Das Höhlendorf.",
         description: "Weniger Speläologie, mehr Troglodyten-Abenteuer. Eine ganze mittelalterliche Siedlung, die direkt in die Felswand gebaut wurde.",
         details: "Frei zugänglich mit tollem Blick auf den Tarn.",
-        routeLink: "https://www.lozere-tourisme.com/sentier-de-la-balme-de-montbrun-et-le-roc-du-coucou/florac-trois-rivieres/itilar048v509c3a"
+        routeLink: "https://www.google.com/search?q=Balme+de+Montbrun&hl=de"
     },
 
     // --- PANORAMA / NATUR ---
@@ -233,7 +233,7 @@ const locations = [
         shortDesc: "Feenkamine & Badlands.",
         description: "Eine surreale Erosionslandschaft. 12m hohe Sandsteinsäulen, die von Wind und Wasser geformt wurden.",
         details: "Geologisches Juwel, Eintritt erforderlich für Erhalt.",
-        routeLink: "https://www.visorando.com/randonnee-les-orgues-d-ille-sur-tet/"
+        routeLink: "https://www.google.com/search?q=Les+Orgues+d'Ille-sur-Têt&hl=de"
     },
     {
         id: 34,
@@ -244,7 +244,7 @@ const locations = [
         shortDesc: "Dolomit-Labyrinth.",
         description: "Ein 300 Hektar großes Chaos aus bizarren Kalkfelsen. Wilder und weniger kommerziell als Montpellier-le-Vieux.",
         details: "Im Sommer extrem heiß, Wasser mitnehmen!",
-        routeLink: "https://www.visorando.com/randonnee-le-cirque-de-moureze-et-le-mont-liausson/"
+        routeLink: "https://www.google.com/search?q=Cirque+de+Mourèze&hl=de"
     },
     {
         id: 12,
@@ -255,7 +255,7 @@ const locations = [
         shortDesc: "Felsenstadt aus Dolomit.",
         description: "Ein Labyrinth aus Felsnadeln, Bögen und Canyons auf dem Causse Noir. Drehort für 'La Grande Vadrouille'.",
         details: "Geomorphologisches Phänomen der Ruinenform.",
-        routeLink: "https://www.visugpx.com/Wg1293h4gW"
+        routeLink: "https://www.google.com/search?q=Chaos+de+Montpellier-le-Vieux&hl=de"
     },
     {
         id: 15,
@@ -266,7 +266,7 @@ const locations = [
         shortDesc: "Granit-Giganten & Wackelsteine.",
         description: "Geologische Anomalie im Herzen des Tarn. Peyro Clabado (balancierender Fels) und Felsenflüsse.",
         details: "Größtes Granitplateau Europas.",
-        routeLink: "https://www.visorando.com/randonnee-les-curiosites-du-sidobre/"
+        routeLink: "https://www.google.com/search?q=Sidobre+(Granit-Chaos)&hl=de"
     },
     {
         id: 5,
@@ -277,7 +277,7 @@ const locations = [
         shortDesc: "Spektakulärer Blick auf Aveyron-Schlucht.",
         description: "Bei Saint-Antonin-Noble-Val. Wanderungen führen an prähistorischen Abris und der Grotte du Bosc vorbei.",
         details: "Zentrum der prähistorischen Forschung.",
-        routeLink: "https://www.visorando.com/randonnee-le-cirque-de-bone/"
+        routeLink: "https://www.google.com/search?q=Cirque+de+Bône&hl=de"
     },
 
     // --- SCHLUCHTEN ---
@@ -290,7 +290,7 @@ const locations = [
         shortDesc: "Monumentaler Canyon & Schmuggelpfad.",
         description: "Gelegen zwischen Montségur und Comus. Vertikale Wände bis zu 400m.",
         details: "Beeindruckendste Schlucht der Pyrenäen.",
-        routeLink: "https://www.komoot.com/fr-fr/highlight/456262"
+        routeLink: "https://www.google.com/search?q=Gorges+de+la+Frau&hl=de"
     },
     {
         id: 30,
@@ -301,7 +301,7 @@ const locations = [
         shortDesc: "Der 'Corniche'-Weg.",
         description: "Legendärer Pfad, der direkt in die vertikale Felswand gehauen wurde. Dazu Hängebrücken ('Ponts de singe').",
         details: "Eines der spektakulärsten Abenteuer der Pyrenäen.",
-        routeLink: "https://www.visorando.com/randonnee-les-gorges-de-la-caranca-corniches-et-pa/"
+        routeLink: "https://www.google.com/search?q=Gorges+de+la+Carança&hl=de"
     },
     {
         id: 9,
@@ -312,7 +312,7 @@ const locations = [
         shortDesc: "Giganten der Erosion.",
         description: "Monumental (500m tief). Highlights: Point Sublime, Pas de Soucy, Cirque des Baumes.",
         details: "Kulminierender Punkt der Schluchtenexploration.",
-        routeLink: "https://www.visorando.com/randonnee-gorges-du-tarn.html"
+        routeLink: "https://www.google.com/search?q=Gorges+du+Tarn&hl=de"
     },
     {
         id: 8,
@@ -323,7 +323,7 @@ const locations = [
         shortDesc: "Wilde Natur & Mühlenruinen.",
         description: "Zwischen Gramat und Rocamadour. Resurgenzen und sakrale Höhlen.",
         details: "Atmosphärischste Wanderung der Region.",
-        routeLink: "https://www.vallee-dordogne.com/les-incontournables/rocamadour/le-canyon-de-l-alzou"
+        routeLink: "https://www.google.com/search?q=Canyon+de+l'Alzou&hl=de"
     },
     {
         id: 32,
@@ -334,7 +334,7 @@ const locations = [
         shortDesc: "Der perfekte Canyon-Mäander.",
         description: "Ein 400m breiter und 100m tiefer Canyon mitten in der Stadt. Hufeisenförmig.",
         details: "Spektakuläre Wanderwege direkt an der Kante.",
-        routeLink: "https://www.tourisme-aveyron.com/fr/diffusio/randonnees/pr1-le-gourg-d-enfer-bozouls_TFO16530653229"
+        routeLink: "https://www.google.com/search?q=Trou+de+Bozouls&hl=de"
     },
     {
         id: 33,
@@ -345,7 +345,7 @@ const locations = [
         shortDesc: "138m Wasserfall-Gigant.",
         description: "Einer der schönsten Wasserfälle der Pyrenäen. Besonders im Mai/Juni nach der Schneeschmelze ein Monster.",
         details: "Mittelschwere Wanderung (3-4h), sehr lohnend.",
-        routeLink: "https://www.ariege-pyrenees.com/aulus-les-bains/cascade-d-ars/tabid/2619/offreid/68194458-750d-44a6-9886-f4045f22c151"
+        routeLink: "https://www.google.com/search?q=Cascade+d'Ars&hl=de"
     },
     {
         id: 11,
@@ -356,7 +356,7 @@ const locations = [
         shortDesc: "UNESCO-Mäander (300m tief).",
         description: "Ein ausgetrocknetes Flussbett der Vis formt diesen gigantischen Kessel.",
         details: "Spektakuläre Geologie, botanischer Reichtum.",
-        routeLink: "https://www.visorando.com/randonnee-cirque-de-navacelles-et-moulins-de-la-fo/"
+        routeLink: "https://www.google.com/search?q=Cirque+de+Navacelles&hl=de"
     },
     {
         id: 6,
@@ -367,7 +367,7 @@ const locations = [
         shortDesc: "Karst-Lehrpfad mit 'Igues'.",
         description: "Führt vorbei an der Resurgenz von Crégols. Fakultative Schleife zu den Grottes du Cimetière.",
         details: "Visualisiert hydrologische Prozesse.",
-        routeLink: "https://www.tourisme-lot.com/offres/le-sentier-karstique-de-ligue-de-cregols-cregols-fr-2807627/"
+        routeLink: "https://www.google.com/search?q=Sentier+Karstique+de+Crégols&hl=de"
     },
     {
         id: 14,
@@ -378,7 +378,7 @@ const locations = [
         shortDesc: "Extreme Enge & Einsiedelei.",
         description: "Der Agly hat sich tief in den Kalkstein gegraben. Die Ermitage Saint-Antoine klebt direkt an der Felswand.",
         details: "Canyoning-Hotspot und spiritueller Ort.",
-        routeLink: "https://www.komoot.com/fr-fr/smarttour/3995141"
+        routeLink: "https://www.google.com/search?q=Gorges+de+Galamus&hl=de"
     },
     {
         id: 25,
@@ -389,7 +389,7 @@ const locations = [
         shortDesc: "Teufelsbrücke & Saint-Guilhem.",
         description: "Wilder Flusslauf unter der Pont du Diable. Nahe dem UNESCO-Dorf Saint-Guilhem-le-Désert.",
         details: "Grand Site de France.",
-        routeLink: "https://www.visorando.com/randonnee-saint-guilhem-le-desert-et-le-chateau-du/"
+        routeLink: "https://www.google.com/search?q=Gorges+de+l'Hérault&hl=de"
     },
 
     // --- TOURIST CAVES ---
@@ -402,7 +402,7 @@ const locations = [
         shortDesc: "Bootsfahrt in 103m Tiefe.",
         description: "Gigantischer Schlund (75m Durchmesser). Unterirdischer Fluss, der mit Booten befahren wird.",
         details: "Das berühmteste Höhlensystem Europas.",
-        routeLink: "https://www.gouffre-de-padirac.com/"
+        routeLink: "https://www.google.com/search?q=Gouffre+de+Padirac&hl=de"
     },
     {
         id: 23,
@@ -413,7 +413,7 @@ const locations = [
         shortDesc: "Originale Höhlenmalereien.",
         description: "Eine der wenigen Höhlen, wo man noch die Originale (Mammuts, gepunktete Pferde) sehen darf.",
         details: "Strenge Besucherlimitierung pro Tag.",
-        routeLink: "https://www.pechmerle.com/"
+        routeLink: "https://www.google.com/search?q=Grotte+de+Pech+Merle&hl=de"
     },
     {
         id: 13,
@@ -424,7 +424,7 @@ const locations = [
         shortDesc: "Prähistorischer Tunnel.",
         description: "Einzige Höhle Europas, die mit dem Auto befahrbar ist. Wanderwege führen über das Massiv.",
         details: "Archäologische Stätte von Weltrang.",
-        routeLink: "https://www.tourisme-arize-leze.com/offres/le-sentier-du-solitaire-le-mas-dazil-fr-4155128/"
+        routeLink: "https://www.google.com/search?q=Grotte+du+Mas+d'Azil&hl=de"
     },
     {
         id: 4,
@@ -435,7 +435,7 @@ const locations = [
         shortDesc: "Thermische Anomalie (15-18°C).",
         description: "Labyrinthartig, verbunden durch natürliche Kalksteinrutschen. Ideal für Winterexplorationen.",
         details: "Zugang: Steiler Pfad von den Thermen von Ussat.",
-        routeLink: "https://www.pyrenees-ariegeoises.com/a-voir-a-faire/balades-et-randonnees/ornolac-et-ussat-ornolac-ussat-les-bains-fr-5045886/"
+        routeLink: "https://www.google.com/search?q=Grotte+de+l'Ermite&hl=de"
     },
 
     // --- CITIES ---
@@ -448,7 +448,7 @@ const locations = [
         shortDesc: "Die Stadt über den Wolken.",
         description: "Mittelalterliche Bastide auf einem Hügel. Gotische Fassaden und steile Gassen.",
         details: "Zählt zu den schönsten Dörfern Frankreichs.",
-        routeLink: "https://www.visorando.com/randonnee-cordes-sur-ciel-un-bijou-d-architecture/"
+        routeLink: "https://www.google.com/search?q=Cordes-sur-Ciel&hl=de"
     },
     {
         id: 21,
@@ -459,7 +459,7 @@ const locations = [
         shortDesc: "Perle am Lot.",
         description: "Dorf klebt spektakulär an einer Steilwand über dem Lot. Künstlerkolonie und historische Fachwerkhäuser.",
         details: "Gewählt zum beliebtesten Dorf der Franzosen.",
-        routeLink: "https://www.tourisme-lot.com/offres/le-chemin-de-halage-bouzies-fr-2807663/"
+        routeLink: "https://www.google.com/search?q=Saint-Cirq-Lapopie&hl=de"
     },
     {
         id: 24,
@@ -470,7 +470,7 @@ const locations = [
         shortDesc: "Mittelalterliche Arkaden.",
         description: "Berühmt für den Marktplatz mit bunten Fachwerkhäusern und den hölzernen Arkadengängen (Couverts).",
         details: "Ideal in Verbindung mit Montségur.",
-        routeLink: "https://www.ariege-pyrenees.com/mirepoix/randonnee-les-crestes-et-le-chateau-de-lagarde/tabid/2619/offreid/693630f0-c2d1-4235-862d-949666f56c86"
+        routeLink: "https://www.google.com/search?q=Mirepoix&hl=de"
     },
 
     // --- TIEFE HÖHLEN FÜR SPELÄOLOGEN (50-300m) ---
@@ -483,7 +483,7 @@ const locations = [
         shortDesc: "Größte Höhle Europas – 250m Tiefe.",
         description: "Gigantisches Höhlensystem bei Ussat-les-Bains. Säle bis zu 100m hoch, 4km Gänge. Spektakuläre Konkrektionen.",
         details: "Tiefe: 250m. Touristische + speläologische Routen.",
-        routeLink: "https://www.grotte-lombrives.fr/"
+        routeLink: "https://www.google.com/search?q=Grotte+de+Lombrives&hl=de"
     },
     {
         id: 201,
@@ -494,7 +494,7 @@ const locations = [
         shortDesc: "250m Abgrund im Montagne Noire.",
         description: "Spektakulärer Abgrund mit hängendem Besuchersteg. Der Saal 'Gouffre Géant' ist 80m hoch.",
         details: "Tiefe: 250m. Geführte Tour + Sportparcours.",
-        routeLink: "https://www.grotte-de-cabrespine.com/"
+        routeLink: "https://www.google.com/search?q=Gouffre+de+Cabrespine&hl=de"
     },
     {
         id: 202,
@@ -505,7 +505,7 @@ const locations = [
         shortDesc: "Stalagmitenwald – 100m tief.",
         description: "Gigantischer Saal mit über 400 Stalagmiten (bis 30m hoch). Weltberühmt bei Speläologen.",
         details: "Tiefe: 100m. Schachteingang für Profis verfügbar.",
-        routeLink: "https://www.aven-armand.com/"
+        routeLink: "https://www.google.com/search?q=Aven+Armand&hl=de"
     },
     {
         id: 203,
@@ -516,7 +516,7 @@ const locations = [
         shortDesc: "Höhlenmalereien + 2km Galerien.",
         description: "Weltberühmt für prähistorische Kunst (14.000 Jahre). Dahinter liegen kilometerlange Gänge.",
         details: "Tiefe: 150m. Schwarzer Saal für Speläologen.",
-        routeLink: "https://www.ariege.com/grotte-niaux"
+        routeLink: "https://www.google.com/search?q=Grotte+de+Niaux&hl=de"
     },
     {
         id: 204,
@@ -527,7 +527,7 @@ const locations = [
         shortDesc: "103m Schacht – Expertenbereich.",
         description: "Hinter dem touristischen Teil: Siphons für Höhlentaucher und extreme Expeditionen.",
         details: "Tiefe: 103m. Höhlentauchen möglich.",
-        routeLink: "https://www.gouffre-de-padirac.com/"
+        routeLink: "https://www.google.com/search?q=Gouffre+de+Padirac+(Expeditionen)&hl=de"
     },
     {
         id: 205,
@@ -538,7 +538,7 @@ const locations = [
         shortDesc: "Längstes System Frankreichs.",
         description: "Über 115km kartierte Gänge! Extrem komplex. Nur für Experten mit Genehmigung.",
         details: "Tiefe: 300m+. Mehrtages-Expeditionen.",
-        routeLink: "https://www.speleologie-ariege.net/"
+        routeLink: "https://www.google.com/search?q=Réseau+Felix+Trombe&hl=de"
     },
     {
         id: 206,
@@ -549,7 +549,7 @@ const locations = [
         shortDesc: "'Palast der Feen' – 200m tief.",
         description: "Riesige Säle mit fantastischen Konkretionen. Dahinter wilde Fortsetzungen für Speläo-Clubs.",
         details: "Tiefe: 200m. Vertikale Schächte im hinteren Teil.",
-        routeLink: "https://www.grotte-dargilan.fr/"
+        routeLink: "https://www.google.com/search?q=Grotte+de+Dargilan&hl=de"
     },
     {
         id: 207,
@@ -560,7 +560,7 @@ const locations = [
         shortDesc: "Alabaster-Konkretionen – 120m.",
         description: "Berühmt für weiße Alabaster-Formationen. Extended network hinter dem Showbereich.",
         details: "Tiefe: 120m. Sportroute verfügbar.",
-        routeLink: "https://www.grotte-deveze.fr/"
+        routeLink: "https://www.google.com/search?q=Grotte+de+Devèze&hl=de"
     },
     {
         id: 208,
@@ -571,7 +571,7 @@ const locations = [
         shortDesc: "Archäologische Höhle – 80m.",
         description: "Neolithische Keramik + Menschenknochen. Wilde Sektionen erfordern Klettern.",
         details: "Tiefe: 80m. Archäo-Speläologie.",
-        routeLink: "https://www.grotte-foissac.fr/"
+        routeLink: "https://www.google.com/search?q=Grotte+de+Foissac&hl=de"
     },
     {
         id: 209,
@@ -582,7 +582,7 @@ const locations = [
         shortDesc: "Gigantischer Eingang – 150m tief.",
         description: "Portal ist 40m breit! Dahinter: prähistorische Kunst und wilde Labyrinthe.",
         details: "Tiefe: 150m. Eiszeit-Bärenhöhle.",
-        routeLink: "https://www.sites-touristiques-ariege.fr/bedeilhac"
+        routeLink: "https://www.google.com/search?q=Grotte+de+Bédeilhac&hl=de"
     },
     {
         id: 210,
@@ -593,7 +593,7 @@ const locations = [
         shortDesc: "Kathedrale – 116m über dem Tal.",
         description: "Saal 'Cathédrale' ist 50m hoch. Für Experten: Schächte zu tieferen Ebenen.",
         details: "Tiefe/Höhe: 116m. Senkrechte Kamine.",
-        routeLink: "https://www.demoiselles.com/"
+        routeLink: "https://www.google.com/search?q=Grotte+des+Demoiselles&hl=de"
     },
     {
         id: 211,
@@ -604,7 +604,7 @@ const locations = [
         shortDesc: "100.000 Soldaten-Stalagmiten.",
         description: "Berühmt für den 'Lac des Soldats'. Wilde Bereiche mit Unterwasser-Siphons.",
         details: "Tiefe: 90m. Höhlentauchen möglich.",
-        routeLink: "https://www.grotte-trabuc.com/"
+        routeLink: "https://www.google.com/search?q=Grotte+de+Trabuc&hl=de"
     },
 
     // --- FOSSILIEN-FUNDORTE (Paleontologie) ---
@@ -699,7 +699,7 @@ const locations = [
         shortDesc: "★★★ Weltberühmte Höhlenmalerei!",
         description: "Magdalénien-Kunst (14.000 Jahre). Salon Noir. Reservierung PFLICHT! Begrenzte Plätze.",
         details: "Tel: 05 61 05 10 10",
-        routeLink: "https://www.sites-touristiques-ariege.fr/grotte-de-niaux/"
+        routeLink: "https://www.google.com/search?q=Grotte+de+Niaux+(Préhistoire)&hl=de"
     },
     {
         id: 501,
@@ -710,7 +710,7 @@ const locations = [
         shortDesc: "★★ Einzigartig: Straße DURCH die Höhle!",
         description: "400m Tunnel, Auto fährt durch! Namensgebend für Azilien-Epoche. Préhistoire-Museum.",
         details: "UNESCO-Kandidat",
-        routeLink: "https://www.sites-touristiques-ariege.fr/grotte-du-mas-dazil/"
+        routeLink: "https://www.google.com/search?q=Grotte+du+Mas-d'Azil&hl=de"
     },
     {
         id: 502,
@@ -721,7 +721,7 @@ const locations = [
         shortDesc: "★★ Längste schiffbare U-Boot-Fahrt Europas!",
         description: "1,5km Bootsfahrt 60m unter der Erde! Nahe Foix. Tropfsteine vom Wasser aus.",
         details: "Ganzjährig geöffnet",
-        routeLink: "https://www.labouiche.com/"
+        routeLink: "https://www.google.com/search?q=Rivière+Souterraine+Labouiche&hl=de"
     },
     {
         id: 503,
@@ -732,7 +732,7 @@ const locations = [
         shortDesc: "★ Kolossale Dimensionen, Ton-Modelagen!",
         description: "Riesiges Portal (30m hoch). Prähistorische Kunst. Im 2. WK als Lager genutzt.",
         details: "Geführte Touren",
-        routeLink: "https://www.sites-touristiques-ariege.fr/grotte-de-bedeilhac/"
+        routeLink: "https://www.google.com/search?q=Grotte+de+Bédeilhac&hl=de"
     },
     {
         id: 504,
@@ -743,7 +743,7 @@ const locations = [
         shortDesc: "★★ Größte begehbare Höhle Europas!",
         description: "Monumentale Hallen, Katharer-Geschichte. Mehrere Touren-Längen wählbar.",
         details: "3km südl. Tarascon",
-        routeLink: "https://www.grotte-lombrives.fr/"
+        routeLink: "https://www.google.com/search?q=Grotte+de+Lombrives&hl=de"
     },
     {
         id: 505,
@@ -754,7 +754,7 @@ const locations = [
         shortDesc: "Archäologische Ausgrabung live!",
         description: "Einziger Ort Frankreichs mit sichtbaren Ausgrabungen. Gegenüber von Niaux.",
         details: "Magdalénien-Wohnstätte",
-        routeLink: "https://www.sites-touristiques-ariege.fr/grotte-de-la-vache/"
+        routeLink: "https://www.google.com/search?q=Grotte+de+la+Vache&hl=de"
     },
 
     // --- LOT / QUERCY (nördlich Toulouse) ---
@@ -767,7 +767,7 @@ const locations = [
         shortDesc: "★★★ Frankreichs berühmtester Gouffre!",
         description: "103m Abstieg! Unterirdische Bootsfahrt auf dem Fluss. Absolutes Muss!",
         details: "~2h von Toulouse",
-        routeLink: "https://www.gouffre-de-padirac.com/"
+        routeLink: "https://www.google.com/search?q=Gouffre+de+Padirac&hl=de"
     },
     {
         id: 511,
@@ -778,7 +778,7 @@ const locations = [
         shortDesc: "★★★ Prähistorische Malerei, 20.000 Jahre!",
         description: "Authentische Höhlenmalereien (keine Kopie!). Pferde, Mammuts, Handabdrücke.",
         details: "Reservierung empfohlen",
-        routeLink: "https://www.pechmerle.com/"
+        routeLink: "https://www.google.com/search?q=Grotte+du+Pech-Merle&hl=de"
     },
     {
         id: 512,
@@ -789,7 +789,7 @@ const locations = [
         shortDesc: "Kleiner Zug + Lichtshow!",
         description: "1,6km unterirdisch, teilweise mit Bähnchen. 10 Säle, spektakuläre Beleuchtung.",
         details: "Dordogne-Tal",
-        routeLink: "https://www.grottes-de-lacave.fr/"
+        routeLink: "https://www.google.com/search?q=Grottes+de+Lacave&hl=de"
     },
     {
         id: 513,
@@ -800,7 +800,7 @@ const locations = [
         shortDesc: "★★ Prähistorische Kunst + Stalagmiten!",
         description: "'Végétation minérale' + echte Höhlenmalereien. Älteste öffentlich zugängliche.",
         details: "Gourdon, Lot",
-        routeLink: "https://www.grottesdecougnac.com/"
+        routeLink: "https://www.google.com/search?q=Grottes+de+Cougnac&hl=de"
     },
     {
         id: 514,
@@ -811,7 +811,7 @@ const locations = [
         shortDesc: "Rocamadour, 25.000 Jahre alte Kunst!",
         description: "Unter der Pilgerstätte. Monumenten-Historique. Handabdrücke, Pferde.",
         details: "UNESCO-Welterbe-Zone",
-        routeLink: "https://www.grottedesmerveilles.com/"
+        routeLink: "https://www.google.com/search?q=Grotte+des+Merveilles&hl=de"
     },
     {
         id: 515,
@@ -822,7 +822,7 @@ const locations = [
         shortDesc: "Säulen bis 10m hoch!",
         description: "350m Galerie, monumentale Stalagmiten. Saint-Céré, Lot.",
         details: "Konkretion-Highlight",
-        routeLink: "https://www.grottes-de-presque.com/"
+        routeLink: "https://www.google.com/search?q=Grottes+de+Presque&hl=de"
     },
 
     // --- DORDOGNE / PÉRIGORD ---
@@ -835,7 +835,7 @@ const locations = [
         shortDesc: "★★★ Die 'Sixtinische Kapelle der Urzeit'!",
         description: "Komplette Nachbildung der Original-Grotte. Weltbestes Prähistorie-Museum.",
         details: "Montignac, ~3h v. Toulouse",
-        routeLink: "https://www.lascaux.fr/"
+        routeLink: "https://www.google.com/search?q=Lascaux+IV+(Réplique)&hl=de"
     },
     {
         id: 521,
@@ -846,7 +846,7 @@ const locations = [
         shortDesc: "★★ 'Kathedrale aus Kristall'!",
         description: "Abstieg in Panorama-Kabine! Sound- und Lichtshow. Spektakulär!",
         details: "Le Bugue, Périgord",
-        routeLink: "https://www.gouffre-proumeyssac.com/"
+        routeLink: "https://www.google.com/search?q=Gouffre+de+Proumeyssac&hl=de"
     },
     {
         id: 522,
@@ -857,7 +857,7 @@ const locations = [
         shortDesc: "'Geologische Perle des Périgord'",
         description: "1995 entdeckt! Sehr gut erhaltene Tropfsteine in verschiedenen Farben.",
         details: "Modernes Besucherzentrum",
-        routeLink: "https://www.grotte-de-tourtoirac.fr/"
+        routeLink: "https://www.google.com/search?q=Grotte+de+Tourtoirac&hl=de"
     }
     ,
 
@@ -873,7 +873,7 @@ const locations = [
         shortDesc: "★★★ Spektakulärste Cascade der Pyrenäen!",
         description: "275m Wasserfall stürzt in türkisfarbenen See. Einfache Wanderung ab Granges d'Astau. Familientauglich!",
         details: "~2h hin, 400m Höhenunterschied",
-        routeLink: "https://www.visorando.com/randonnee-le-lac-d-oo/"
+        routeLink: "https://www.google.com/search?q=Lac+d'Oô+++Cascade+(275m)&hl=de"
     },
     {
         id: 601,
@@ -884,7 +884,7 @@ const locations = [
         shortDesc: "Weiter als Oô, noch wilder!",
         description: "Via GR10 ab Lac d'Oô. Berghütte am See. Für erfahrene Wanderer.",
         details: "+300m über Oô, ~4h gesamt",
-        routeLink: "https://www.visorando.com/randonnee-lac-d-espingo/"
+        routeLink: "https://www.google.com/search?q=Lac+d'Espingo&hl=de"
     },
     {
         id: 602,
@@ -895,7 +895,7 @@ const locations = [
         shortDesc: "★★ Höllen-Canyon, Vallée du Lys!",
         description: "Schattiger Canyon mit Wasserfällen. Ab Castillon-de-Larboust. Sehr atmosphärisch!",
         details: "Mittelschwer",
-        routeLink: "https://www.visorando.com/randonnee-gouffre-d-enfer-et-ru-d-enfer/"
+        routeLink: "https://www.google.com/search?q=Gouffre+du+Ru+d'Enfer&hl=de"
     },
     {
         id: 603,
@@ -906,7 +906,7 @@ const locations = [
         shortDesc: "Smaragdgrüner Bergsee!",
         description: "Traumhaftes Grün, Panorama Luchonnais. Anspruchsvoll wegen Länge und Steigung.",
         details: "Schwer, gute Kondition nötig",
-        routeLink: "https://www.visorando.com/randonnee-le-lac-vert-depuis-bagneres-de-luchon/"
+        routeLink: "https://www.google.com/search?q=Lac+Vert+(Luchon)&hl=de"
     },
 
     // --- Ariège (Cascades) ---
@@ -919,7 +919,7 @@ const locations = [
         shortDesc: "★★★ Höchster Wasserfall der Ariège!",
         description: "246m in 3 Stufen! Ab Auzat/Artigue. Mai-Juni beste Zeit (Schneeschmelze).",
         details: "6km, 2h40, familienfreundlich",
-        routeLink: "https://www.visorando.com/randonnee-cascade-d-ars/"
+        routeLink: "https://www.google.com/search?q=Cascade+d'Ars+(246m)&hl=de"
     },
     {
         id: 611,
@@ -930,7 +930,7 @@ const locations = [
         shortDesc: "★ Zwei Bergsen, einer wild!",
         description: "Ab Route D8f (Aulus-les-Bains). Garbet = markiert. Bleu = unter Felswänden, wilder.",
         details: "Garbet leicht, Bleu sportlich",
-        routeLink: "https://www.visorando.com/randonnee-etangs-du-garbet/"
+        routeLink: "https://www.google.com/search?q=Étang+du+Garbet+++Étang+Bleu&hl=de"
     },
     {
         id: 612,
@@ -941,7 +941,7 @@ const locations = [
         shortDesc: "Couserans-Klassiker, familientauglich.",
         description: "8km Rundweg, 400m Höhe. Schöner See im Couserans-Tal.",
         details: "Leicht-Mittel",
-        routeLink: "https://www.visorando.com/randonnee-le-lac-de-bethmale/"
+        routeLink: "https://www.google.com/search?q=Lac+de+Bethmale&hl=de"
     },
 
     // --- Gorges (Aude/Ariège) ---
@@ -954,7 +954,7 @@ const locations = [
         shortDesc: "★★ Spektakuläre Klamm + Ermitage!",
         description: "Enge Schlucht, Ermitage Saint-Antoine in Felswand. Atemberaubend!",
         details: "Grenze Aude/Pyr.-Orientales",
-        routeLink: "https://www.gorgesdegalamus.fr/"
+        routeLink: "https://www.google.com/search?q=Gorges+de+Galamus&hl=de"
     },
     {
         id: 621,
@@ -965,7 +965,7 @@ const locations = [
         shortDesc: "★★ Katharerweg, wild & mystisch!",
         description: "GR107 (Sentier Cathare) führt durch. Ab Montségur. Sehr atmosphärisch!",
         details: "7,6km, 4-5h",
-        routeLink: "https://www.visorando.com/randonnee-les-gorges-de-la-frau/"
+        routeLink: "https://www.google.com/search?q=Gorges+de+la+Frau&hl=de"
     },
     {
         id: 622,
@@ -976,7 +976,7 @@ const locations = [
         shortDesc: "Rafting-Hotspot, Pyrénées Audoises!",
         description: "Enge, tiefe Schlucht. Rafting, Hydrospeed. Wildwasser-Abenteuer!",
         details: "pyreneesaudoises.com",
-        routeLink: "https://www.pyreneesaudoises.com/"
+        routeLink: "https://www.google.com/search?q=Gorges+de+Saint-Georges&hl=de"
     },
     {
         id: 623,
@@ -987,7 +987,7 @@ const locations = [
         shortDesc: "★ Dramatischer Canyon, Aude-Tal!",
         description: "Enge Straße durch Felsen. Perfekt für Rafting. Pyrénées Audoises.",
         details: "Zugang via D117",
-        routeLink: "https://www.pyreneesaudoises.com/"
+        routeLink: "https://www.google.com/search?q=Défilé+de+la+Pierre+Lys&hl=de"
     },
 
     // === FOSSILIEN NÄHER BEI TOULOUSE ===
@@ -1247,7 +1247,7 @@ const locations = [
         shortDesc: "★★★ Gotisches Himmelsdorf!",
         description: "1222 gegründete Bastide, schwebt über den Wolken. Mittelalterliche Gassen, Fachwerkhäuser, Katharer-Geschichte.",
         details: "~1h von Toulouse. Plus Beaux Villages de France!",
-        routeLink: "https://www.google.com/maps/place/Cordes-sur-Ciel"
+        routeLink: "https://www.google.com/search?q=Cordes-sur-Ciel&hl=de"
     },
     {
         id: 801,
@@ -1258,7 +1258,7 @@ const locations = [
         shortDesc: "★★★ Spektakuläres Felsendorf!",
         description: "Mittelalterliches Juwel an der Klippe über dem Lot. Eines der schönsten Dörfer Frankreichs!",
         details: "~1,5h von Toulouse. Absolutes Muss!",
-        routeLink: "https://www.google.com/maps/place/Saint-Cirq-Lapopie"
+        routeLink: "https://www.google.com/search?q=Saint-Cirq-Lapopie&hl=de"
     },
     {
         id: 802,
@@ -1269,7 +1269,7 @@ const locations = [
         shortDesc: "★★ Befestigte Bastide!",
         description: "Festungsdorf mit Blick über die Forêt de Grésigne. 10. Jhd. Wehrturm, beeindruckende Stadtmauern.",
         details: "~1h von Toulouse. Plus Beaux Villages!",
-        routeLink: "https://www.google.com/maps/place/Puycelsi"
+        routeLink: "https://www.google.com/search?q=Puycelsi&hl=de"
     },
     {
         id: 803,
@@ -1280,7 +1280,7 @@ const locations = [
         shortDesc: "★★ Zwei Burgen über dem Tal!",
         description: "Zwei mittelalterliche Burgen auf Felsen. Malerische Gassen, Blick über die Aveyron-Schlucht.",
         details: "~1h von Toulouse. Filmkulisse!",
-        routeLink: "https://www.google.com/maps/place/Bruniquel"
+        routeLink: "https://www.google.com/search?q=Bruniquel&hl=de"
     },
     {
         id: 804,
@@ -1291,7 +1291,7 @@ const locations = [
         shortDesc: "Typische Arkaden-Bastide!",
         description: "Mittelalterliche Bastide mit Arkaden-Platz und Fachwerkhäusern. Gaillac-Weingebiet.",
         details: "~1h von Toulouse. Plus Beaux Villages!",
-        routeLink: "https://www.google.com/maps/place/Castelnau-de-Montmiral"
+        routeLink: "https://www.google.com/search?q=Castelnau-de-Montmiral&hl=de"
     },
     {
         id: 805,
@@ -1302,7 +1302,7 @@ const locations = [
         shortDesc: "★★ Runde Markthalle!",
         description: "Einzigartige runde Markthalle aus Stein! Blick über das Garonne-Tal. Jakobsweg-Station.",
         details: "~1h von Toulouse. Plus Beaux Villages!",
-        routeLink: "https://www.google.com/maps/place/Auvillar"
+        routeLink: "https://www.google.com/search?q=Auvillar&hl=de"
     },
     {
         id: 806,
@@ -1313,7 +1313,7 @@ const locations = [
         shortDesc: "★★★ Romanisches Juwel!",
         description: "Abtei Sainte-Foy (UNESCO). Meisterwerk romanischer Kunst! Schatzkammer mit Goldstatuen.",
         details: "~2h von Toulouse. Absolut einzigartig!",
-        routeLink: "https://www.google.com/maps/place/Conques"
+        routeLink: "https://www.google.com/search?q=Conques&hl=de"
     },
     {
         id: 807,
@@ -1324,7 +1324,7 @@ const locations = [
         shortDesc: "★★ Römisches Erbe + Kathedrale!",
         description: "Antike römische Stadt + mittelalterliche Kathedrale. UNESCO-Welterbe der Jakobswege.",
         details: "~1,5h von Toulouse. Geschichte pur!",
-        routeLink: "https://www.google.com/maps/place/Saint-Bertrand-de-Comminges"
+        routeLink: "https://www.google.com/search?q=Saint-Bertrand-de-Comminges&hl=de"
     },
     {
         id: 808,
@@ -1335,7 +1335,7 @@ const locations = [
         shortDesc: "Knoblauch-Hauptstadt!",
         description: "Mittelalterliches Dorf & Heimat des rosa Knoblauchs. Windmühle, Fachwerkhäuser.",
         details: "~1h von Toulouse. Plus Beaux Villages!",
-        routeLink: "https://www.google.com/maps/place/Lautrec"
+        routeLink: "https://www.google.com/search?q=Lautrec&hl=de"
     },
     {
         id: 809,
@@ -1346,7 +1346,7 @@ const locations = [
         shortDesc: "★★ Einziges Runddorf Gascogne!",
         description: "Einzigartiges kreisförmiges Dorf mit Arkadenplatz. Bilderbuch-Gascogne!",
         details: "~1,5h von Toulouse. Unique!",
-        routeLink: "https://www.google.com/maps/place/Fourcès"
+        routeLink: "https://www.google.com/search?q=Fourcès&hl=de"
     },
     {
         id: 810,
@@ -1357,7 +1357,7 @@ const locations = [
         shortDesc: "Ruinen auf dem Felsen!",
         description: "Dramatische Burgruine auf Felssporn über der Aveyron. Mittelalterliches Dorf am Hang.",
         details: "~1h von Toulouse. Fotogen!",
-        routeLink: "https://www.google.com/maps/place/Penne+Tarn"
+        routeLink: "https://www.google.com/search?q=Penne&hl=de"
     },
     {
         id: 811,
@@ -1368,7 +1368,7 @@ const locations = [
         shortDesc: "Rosa Backsteinstadt!",
         description: "Historische Bischofsstadt mit pink-rotem Backstein. Prächtige Kathedrale, Stadttore.",
         details: "~45min von Toulouse. Plus Beaux Détours!",
-        routeLink: "https://www.google.com/maps/place/Rieux-Volvestre"
+        routeLink: "https://www.google.com/search?q=Rieux-Volvestre&hl=de"
     },
 
     // === TARBES / LOURDES REGION ===
@@ -1382,7 +1382,7 @@ const locations = [
         shortDesc: "★★★ Legendärer Gipfel 2877m!",
         description: "Observatorium mit 360° Panorama über die Pyrenäen! Sternwarte, Planetarium, 'Ponton dans le Ciel' Glasbrücke.",
         details: "~2h von Toulouse. Seilbahn von La Mongie.",
-        routeLink: "https://www.picdumidi.com/"
+        routeLink: "https://www.google.com/search?q=Pic+du+Midi+de+Bigorre&hl=de"
     },
     {
         id: 821,
@@ -1393,7 +1393,7 @@ const locations = [
         shortDesc: "★★★ UNESCO Welterbe!",
         description: "Spektakulärer Gebirgskessel mit Europas höchstem Wasserfall (423m)! Zu Fuß, Esel oder Pferd erreichbar.",
         details: "~2,5h von Toulouse. Absolutes Naturwunder!",
-        routeLink: "https://www.google.com/maps/place/Cirque+de+Gavarnie"
+        routeLink: "https://www.google.com/search?q=Cirque+de+Gavarnie&hl=de"
     },
     {
         id: 822,
@@ -1404,7 +1404,7 @@ const locations = [
         shortDesc: "★★★ Türkiser Bergsee!",
         description: "Spektakuläre Wasserfälle + kristallklarer Bergsee auf 1.725m. Spiegelt den Vignemale-Gipfel!",
         details: "~2h von Toulouse. Sessellift oder Wanderung.",
-        routeLink: "https://www.cauterets.com/pont-despagne/"
+        routeLink: "https://www.google.com/search?q=Pont+d'Espagne+%26+Lac+de+Gaube&hl=de"
     },
     {
         id: 823,
@@ -1415,7 +1415,7 @@ const locations = [
         shortDesc: "★★ Thermen + Berge!",
         description: "Historischer Kurort mit Thermalbädern. Berühmte Berlingots-Bonbons! Tor zum Nationalpark.",
         details: "~2h von Toulouse. Wellness + Wandern!",
-        routeLink: "https://www.cauterets.com/"
+        routeLink: "https://www.google.com/search?q=Cauterets+(Thermalstadt)&hl=de"
     },
     {
         id: 824,
@@ -1426,7 +1426,7 @@ const locations = [
         shortDesc: "★★ Geheimtipp-Kessel!",
         description: "Größter Gebirgskessel der Pyrenäen! Weniger touristisch als Gavarnie. Murmeltier-Paradies!",
         details: "~2,5h von Toulouse. Auto bis oben!",
-        routeLink: "https://www.google.com/maps/place/Cirque+de+Troumouse"
+        routeLink: "https://www.google.com/search?q=Cirque+de+Troumouse&hl=de"
     },
     {
         id: 825,
@@ -1437,7 +1437,7 @@ const locations = [
         shortDesc: "★★ Höhle mit Boot + Zug!",
         description: "Riesige Tropfsteinhöhle über 5 Etagen! Bootsfahrt auf unterirdischem Fluss + Minizug.",
         details: "~1,5h von Toulouse. Einzigartig!",
-        routeLink: "https://www.betharram.com/"
+        routeLink: "https://www.google.com/search?q=Grottes+de+Bétharram&hl=de"
     },
     {
         id: 826,
@@ -1448,7 +1448,7 @@ const locations = [
         shortDesc: "Weltberühmter Pilgerort!",
         description: "Grotte von Massabielle, Basilika, Kreuzweg. Zweitgrößter Tourismusort Frankreichs nach Paris!",
         details: "~1,5h von Toulouse.",
-        routeLink: "https://www.lourdes-infotourisme.com/"
+        routeLink: "https://www.google.com/search?q=Lourdes+(Wallfahrtsort)&hl=de"
     },
     {
         id: 827,
@@ -1459,7 +1459,7 @@ const locations = [
         shortDesc: "Standseilbahn-Panorama!",
         description: "Panoramablick über Lourdes, Tarbes und die Pyrenäen. Historische Standseilbahn seit 1900.",
         details: "In Lourdes. Schnell erreichbar!",
-        routeLink: "https://www.google.com/maps/place/Pic+du+Jer"
+        routeLink: "https://www.google.com/search?q=Pic+du+Jer+(Lourdes)&hl=de"
     },
     {
         id: 828,
@@ -1470,7 +1470,7 @@ const locations = [
         shortDesc: "★★ Legendäres Felstor!",
         description: "40m hohe, 100m breite Felsspalte in 2804m Höhe. Der Legende nach von Roland mit Schwert geschlagen!",
         details: "~2,5h + Wanderung. Für Erfahrene!",
-        routeLink: "https://www.google.com/maps/place/Brèche+de+Roland"
+        routeLink: "https://www.google.com/search?q=Brèche+de+Roland&hl=de"
     },
     {
         id: 829,
@@ -1481,6 +1481,6 @@ const locations = [
         shortDesc: "★★ Pic du Midi d'Ossau Spiegel!",
         description: "Bergseen-Kette mit perfekter Spiegelung des Pic du Midi d'Ossau. Eines der schönsten Wanderziele!",
         details: "~2h von Toulouse + Wanderung.",
-        routeLink: "https://www.google.com/maps/place/Lac+d'Ayous"
+        routeLink: "https://www.google.com/search?q=Lac+d'Ayous&hl=de"
     }
 ];

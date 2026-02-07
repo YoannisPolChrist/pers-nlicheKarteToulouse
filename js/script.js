@@ -20,15 +20,27 @@ document.addEventListener('DOMContentLoaded', () => {
 // MAP INITIALIZATION
 // ============================================
 function initializeMap() {
-    // Initialize map centered on Toulouse
     // Check if mobile
     const isMobile = window.innerWidth < 768;
 
+    // Performance-optimized map options
     map = L.map('map', {
         zoomControl: false,
         preferCanvas: true,
         updateWhenZooming: false,
-        updateWhenIdle: true
+        updateWhenIdle: true,
+        // Mobile-specific performance
+        tap: isMobile,
+        tapTolerance: 15,
+        touchZoom: 'center',
+        bounceAtZoomLimits: false,
+        // Reduce animations on mobile
+        fadeAnimation: !isMobile,
+        zoomAnimation: !isMobile,
+        markerZoomAnimation: !isMobile,
+        // Wheel/scroll optimization
+        wheelDebounceTime: 100,
+        wheelPxPerZoomLevel: 120
     }).setView([43.604, 1.444], 8);
 
     // Add zoom control to bottom right

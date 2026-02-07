@@ -454,6 +454,30 @@ h3,
    ============================================ */
 @media (max-width: 768px) {
 
+    /* GPU acceleration for smooth scrolling */
+    #map,
+    .leaflet-container,
+    .leaflet-tile-pane {
+        transform: translateZ(0);
+        -webkit-transform: translateZ(0);
+        will-change: transform;
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+    }
+
+    /* Reduce/disable transitions on mobile for performance */
+    *,
+    *::before,
+    *::after {
+        transition-duration: 0.1s !important;
+    }
+
+    /* Disable expensive hover effects */
+    .location-card:hover,
+    .filter-btn:hover {
+        transform: none !important;
+    }
+
     /* Sidebar takes only 35% on mobile for more map space */
     aside {
         height: 35% !important;

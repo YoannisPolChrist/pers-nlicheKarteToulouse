@@ -526,17 +526,27 @@ h3,
         display: none !important;
     }
 
-    /* Sidebar becomes just the filter bar */
+    /* Remove gray background from sidebar on mobile */
     aside {
         height: auto !important;
         max-height: none !important;
         flex: 0 0 auto !important;
+        background: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
     }
 
-    /* Map takes remaining space */
+    /* Hide the filter bar container padding when closed */
+    #filter-bar {
+        background: white;
+        border-radius: 0 0 1rem 1rem;
+        margin: 0;
+    }
+
+    /* Map takes full remaining space */
     #map {
-        flex: 1 1 auto !important;
-        height: auto !important;
+        flex: 1 1 100% !important;
+        min-height: 0 !important;
     }
 
     /* Card as horizontal scroll item */

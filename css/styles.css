@@ -511,6 +511,85 @@ a:focus-visible {
 }
 
 /* ============================================
+   POPUP LINKS & BUTTONS - Modern styled
+   ============================================ */
+.leaflet-popup-content a {
+    color: var(--primary-dark);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all var(--transition-fast);
+}
+
+.leaflet-popup-content a:hover {
+    color: var(--accent);
+    text-decoration: underline;
+}
+
+/* Route Button - Premium styled */
+.route-btn,
+.leaflet-popup-content a[href*="google"],
+.leaflet-popup-content a[href*="geoforum"],
+.leaflet-popup-content a[href*="route"],
+.leaflet-popup-content a[target="_blank"] {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.625rem 1.25rem;
+    margin-top: 0.75rem;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    color: white !important;
+    border-radius: var(--radius-full);
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-decoration: none !important;
+    box-shadow: var(--shadow-md);
+    transition: all var(--transition-fast);
+    border: none;
+    cursor: pointer;
+}
+
+.route-btn:hover,
+.leaflet-popup-content a[href*="google"]:hover,
+.leaflet-popup-content a[href*="geoforum"]:hover,
+.leaflet-popup-content a[href*="route"]:hover,
+.leaflet-popup-content a[target="_blank"]:hover {
+    background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.route-btn i,
+.leaflet-popup-content a[target="_blank"] i {
+    font-size: 0.875rem;
+}
+
+/* Popup Title */
+.leaflet-popup-content h3,
+.leaflet-popup-content strong {
+    font-family: 'Merriweather', serif;
+    color: var(--text-primary);
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Popup Description */
+.leaflet-popup-content p {
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+    line-height: 1.6;
+    margin: 0.5rem 0;
+}
+
+/* Popup Image */
+.leaflet-popup-content img {
+    border-radius: var(--radius-lg);
+    margin-bottom: 0.75rem;
+    box-shadow: var(--shadow-sm);
+}
+
+/* ============================================
    LEGEND IMPROVEMENTS - Glassmorphism
    ============================================ */
 .map-legend {

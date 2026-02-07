@@ -450,16 +450,128 @@ h3,
 }
 
 /* ============================================
-   RESPONSIVE UTILITIES
+   RESPONSIVE UTILITIES - MOBILE OPTIMIZED
    ============================================ */
 @media (max-width: 768px) {
+
+    /* Sidebar takes only 35% on mobile for more map space */
+    aside {
+        height: 35% !important;
+        max-height: 35vh;
+    }
+
+    /* Map gets 65% */
+    #map {
+        height: 65% !important;
+    }
+
+    /* Hide the legend gallery on mobile - too much space */
+    .map-legend {
+        display: none !important;
+    }
+
+    /* Smaller header on mobile */
+    header {
+        padding: 0.75rem 1rem !important;
+    }
+
+    header h1 {
+        font-size: 1.25rem !important;
+    }
+
+    header p {
+        font-size: 0.65rem !important;
+    }
+
+    header .p-3 {
+        padding: 0.5rem !important;
+    }
+
+    header i {
+        font-size: 1.5rem !important;
+    }
+
+    /* Compact filter bar */
+    .filter-btn {
+        font-size: 0.7rem;
+        padding: 0.35rem 0.75rem;
+    }
+
+    /* Horizontal scrolling cards on mobile */
+    #location-list {
+        display: flex !important;
+        flex-direction: row !important;
+        overflow-x: auto !important;
+        overflow-y: hidden !important;
+        gap: 0.75rem !important;
+        padding: 0.75rem !important;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    /* Card as horizontal scroll item */
     .location-card {
+        flex: 0 0 280px !important;
+        min-width: 280px !important;
+        scroll-snap-align: start;
         padding: 0.75rem;
     }
 
+    /* Smaller images in cards */
+    .location-card img {
+        height: 100px !important;
+    }
+
+    /* Bigger touch targets for buttons */
+    button,
+    a {
+        min-height: 44px;
+        min-width: 44px;
+    }
+
+    /* Layer control smaller on mobile */
+    .leaflet-control-layers {
+        font-size: 0.75rem !important;
+    }
+
+    .leaflet-control-layers-base label {
+        padding: 4px 8px !important;
+    }
+
+    /* Popup improvements for mobile */
+    .leaflet-popup-content-wrapper {
+        max-width: 280px !important;
+    }
+
+    .leaflet-popup-content {
+        margin: 0.75rem !important;
+        font-size: 0.85rem;
+    }
+
+    .leaflet-popup-content img {
+        max-height: 120px !important;
+    }
+}
+
+/* Extra small devices (phones, 480px and down) */
+@media (max-width: 480px) {
+    aside {
+        height: 30% !important;
+        max-height: 30vh;
+    }
+
+    #map {
+        height: 70% !important;
+    }
+
+    .location-card {
+        flex: 0 0 240px !important;
+        min-width: 240px !important;
+    }
+
     .filter-btn {
-        font-size: 0.75rem;
-        padding: 0.4rem 1rem;
+        font-size: 0.65rem;
+        padding: 0.3rem 0.6rem;
     }
 }
 

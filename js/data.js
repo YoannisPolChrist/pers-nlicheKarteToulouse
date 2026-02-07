@@ -617,7 +617,7 @@ const locations = [
         shortDesc: "Top-Fundpunkt für Toarcium-Ammoniten.",
         description: "Entlang der D93: Mergelaufschlüsse des Toarciums. Pyritisierte Ammoniten, Gastropoden, Belemniten.",
         details: "Lias (Toarcium), ca. 185-174 Mio. Jahre.",
-        routeLink: "https://www.visorando.com/"
+        routeLink: "https://www.google.com/search?q=Saint-Jean-d'Alcapies&hl=de"
     },
     {
         id: 101,
@@ -628,7 +628,7 @@ const locations = [
         shortDesc: "Mergelhang mit Pyrit-Fossilien.",
         description: "Wanderweg durch Mergelschichten. Fossilien oft direkt nach Regen sichtbar.",
         details: "Perfekt für Anfänger ohne schweres Werkzeug.",
-        routeLink: "https://www.tourisme-aveyron.com/"
+        routeLink: "https://www.google.com/search?q=Lapanouse-de-Cernon&hl=de"
     },
     {
         id: 102,
@@ -639,7 +639,7 @@ const locations = [
         shortDesc: "'Schistes carton' mit Ammoniten.",
         description: "Graue Kartonschiefer mit flachgedrückten Hildoceras und Harpoceras.",
         details: "Vorsichtig spalten! Fossilien dünn wie Papier.",
-        routeLink: "https://www.roquefort.fr/"
+        routeLink: "https://www.google.com/search?q=Tournemire+%26+Roquefort&hl=de"
     },
     {
         id: 103,
@@ -650,7 +650,7 @@ const locations = [
         shortDesc: "Tausende Hildoceras-Ammoniten.",
         description: "'Marnes bleues' des Toarciums mit massenhaft pyritisierten Ammoniten.",
         details: "Weltklasse-Fundort für Sammler.",
-        routeLink: "https://www.lozere-tourisme.com/"
+        routeLink: "https://www.google.com/search?q=Cénaret+%28Barjac%29&hl=de"
     },
     {
         id: 104,
@@ -661,7 +661,7 @@ const locations = [
         shortDesc: "Crinoiden & Pentacriniten.",
         description: "Sinémurien/Pliensbachien. Crinoiden (Seelilien), Pentacriniten, Brachiopoden.",
         details: "Ca. 190 Mio. Jahre alt.",
-        routeLink: "https://www.grandsudherault.fr/"
+        routeLink: "https://www.google.com/search?q=Boussagues+%28Bédarieux%29&hl=de"
     },
     {
         id: 105,
@@ -672,7 +672,7 @@ const locations = [
         shortDesc: "Berühmte Ammoniten-Platte.",
         description: "Pädagogisches Geotop – Sammeln nicht erlaubt, nur Beobachtung.",
         details: "Geschütztes geologisches Denkmal.",
-        routeLink: "https://www.cc-grandpicsaintloup.fr/"
+        routeLink: "https://www.google.com/search?q=Viols-le-Fort+%28Ammoniten-Platte%29&hl=de"
     },
     {
         id: 106,
@@ -683,7 +683,7 @@ const locations = [
         shortDesc: "Das Referenzmodell (Ardèche).",
         description: "Legendärer Fundort für pyritisierte Toarcium-Fossilien.",
         details: "Referenz-Geotop, ca. 2,5 Std. von Toulouse.",
-        routeLink: "https://www.ardeche-guide.com/"
+        routeLink: "https://www.google.com/search?q=Ravin+de+Naves+%28Les+Vans%29&hl=de"
     }
     ,
 
@@ -1013,7 +1013,7 @@ const locations = [
         shortDesc: "★ PaleoBioDB: 17 registrierte Fundorte!",
         description: "Comminges-Region. Jurassische + Kreide-Formationen. Wissenschaftlich dokumentiert.",
         details: "~1h von Toulouse",
-        routeLink: "https://paleobiodb.org/"
+        routeLink: "https://www.google.com/search?q=Saint-Gaudens+%2817+Fossil-Sites%29&hl=de"
     },
     {
         id: 702,
@@ -1024,7 +1024,7 @@ const locations = [
         shortDesc: "Kreide-Ammoniten, Ariège!",
         description: "Bédoulien-Stufe (Unterkreide). BRGM-dokumentiert. Nahe Tarascon.",
         details: "~1,5h von Toulouse",
-        routeLink: "https://www.brgm.fr/"
+        routeLink: "https://www.google.com/search?q=Col+d'Ussat+%28Bédoulien%29&hl=de"
     },
 
     // --- Quercy/Lot (1-1,5h nördlich Toulouse) ---
@@ -1037,7 +1037,7 @@ const locations = [
         shortDesc: "★★★ WELTKLASSE: 30 Mio. Jahre alt!",
         description: "Weltweit einzigartig! Säugetiere, Reptilien, Insekten. Ehemalige Phosphatminen.",
         details: "Bach (Lot), ~1,5h v. Toulouse",
-        routeLink: "https://www.phosphatieres.com/"
+        routeLink: "https://www.google.com/search?q=Phosphatières+du+Quercy&hl=de"
     },
     {
         id: 711,
@@ -1048,7 +1048,7 @@ const locations = [
         shortDesc: "★★ Dinosaurier-Fußabdrücke!",
         description: "Jurassische Spuren: Pterosaurier, Theropoden, Krokodile. Einzigartig!",
         details: "Causses du Quercy",
-        routeLink: "https://www.parc-causses-du-quercy.fr/"
+        routeLink: "https://www.google.com/search?q=Plage+aux+Ptérosaures+%28Crayssac%29&hl=de"
     },
     {
         id: 712,
@@ -1059,7 +1059,7 @@ const locations = [
         shortDesc: "Wanderweg mit Fossilien, 40min v. TLS!",
         description: "Namensgebend für Aurignacien! Sentier des Fossiles + Musée de l'Aurignacien.",
         details: "Sehr nah an Toulouse!",
-        routeLink: "https://www.musee-aurignacien.com/"
+        routeLink: "https://www.google.com/search?q=Aurignac+%28Sentier+des+Fossiles%29&hl=de"
     },
 
     // === GEOFORUM VERIFIZIERTE FUNDORTE ===
@@ -1153,7 +1153,7 @@ const locations = [
         shortDesc: "★★★ Weltberühmte Oligozän-Fauna!",
         description: "30 Mio. Jahre alt! Säugetiere (Primaten, Xiphodon, Palaeotherium), Reptilien, Amphibien. UNESCO-Relevanz!",
         details: "~1,5h von Toulouse, Lot. Museum vor Ort!",
-        routeLink: "https://www.phosphatieres.com/"
+        routeLink: "https://www.google.com/search?q=Phosphatières+du+Quercy+%28Bach%29&hl=de"
     },
     {
         id: 728,
@@ -1211,7 +1211,7 @@ const locations = [
         shortDesc: "★★★ Französische Dinosaurier!",
         description: "Dinosaurier-Museum mit echten Funden aus der Region! Weltberühmt für Dinosaurier-Eier. Grabungsstätten in der Nähe.",
         details: "~1,5h von Toulouse, Aude. Museum + Fundstätten!",
-        routeLink: "https://www.dinosauria.org/"
+        routeLink: "https://www.google.com/search?q=Espéraza+Dinosauria+Museum&hl=de"
     },
     {
         id: 733,
@@ -1482,5 +1482,121 @@ const locations = [
         description: "Bergseen-Kette mit perfekter Spiegelung des Pic du Midi d'Ossau. Eines der schönsten Wanderziele!",
         details: "~2h von Toulouse + Wanderung.",
         routeLink: "https://www.google.com/search?q=Lac+d'Ayous&hl=de"
+    },
+
+    // === ALBI / TARN NATUR ===
+
+    {
+        id: 830,
+        title: "Cascades d'Arifat",
+        type: "schlucht",
+        lat: 43.760, lng: 2.123,
+        image: "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        shortDesc: "★★ 3-stufiger Wasserfall!",
+        description: "Spektakuläre dreistufige Kaskade mit Hängebrücke! 3km Rundweg. Zwischen Albi und Castres.",
+        details: "~45min von Toulouse. Fotogen!",
+        routeLink: "https://www.google.com/search?q=Cascades+d'Arifat&hl=de"
+    },
+    {
+        id: 831,
+        title: "Sidobre (Granitfelsen)",
+        type: "panorama",
+        lat: 43.648, lng: 2.477,
+        image: "https://images.unsplash.com/photo-1499002238440-d264edd596ec?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        shortDesc: "★★ Bizarre Felsformationen!",
+        description: "Europas größtes Granitplateau! Wackelsteine, Steinströme, mystische Formationen.",
+        details: "~1,5h von Toulouse. Einzigartig!",
+        routeLink: "https://www.google.com/search?q=Sidobre+Tarn+rochers&hl=de"
+    },
+    {
+        id: 832,
+        title: "Forêt de Grésigne",
+        type: "panorama",
+        lat: 43.998, lng: 1.756,
+        image: "https://images.unsplash.com/photo-1448375240586-882707db888b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        shortDesc: "Größter Eichenwald!",
+        description: "19.000 Hektar unberührter Eichenwald. Wildschweine, Rehe, Wanderwege, Picknickmöglichkeiten.",
+        details: "~1h von Toulouse.",
+        routeLink: "https://www.google.com/search?q=Forêt+de+Grésigne&hl=de"
+    },
+    {
+        id: 833,
+        title: "Raspes du Tarn",
+        type: "schlucht",
+        lat: 44.146, lng: 2.700,
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        shortDesc: "★★ Wildwasser-Schlucht!",
+        description: "Wilde Tarn-Schluchten mit steilen Felswänden. Kanufahren, Wandern, unberührte Natur.",
+        details: "~2h von Toulouse.",
+        routeLink: "https://www.google.com/search?q=Raspes+du+Tarn&hl=de"
+    },
+    {
+        id: 834,
+        title: "Cascade de l'Audoulou",
+        type: "schlucht",
+        lat: 43.948, lng: 1.693,
+        image: "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        shortDesc: "Versteckter Wasserfall!",
+        description: "Malerischer Wasserfall nahe Puycelsi. Mehrere Rundwanderungen möglich.",
+        details: "~1h von Toulouse.",
+        routeLink: "https://www.google.com/search?q=Cascade+de+l'Audoulou&hl=de"
+    },
+
+    // === HAUTES-PYRÉNÉES HIDDEN GEMS ===
+
+    {
+        id: 840,
+        title: "Lac de Cestrède",
+        type: "panorama",
+        lat: 42.836, lng: 0.023,
+        image: "https://images.unsplash.com/photo-1559827291-72ee739d0d9a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        shortDesc: "Geheimtipp Bergsee!",
+        description: "Ruhiger Bergsee, weniger besucht. Auch im Winter mit Schneeschuhen erreichbar!",
+        details: "~2h von Toulouse + Wanderung.",
+        routeLink: "https://www.google.com/search?q=Lac+de+Cestrède&hl=de"
+    },
+    {
+        id: 841,
+        title: "Lac d'Agalops (2196m)",
+        type: "panorama",
+        lat: 42.820, lng: 0.045,
+        image: "https://images.unsplash.com/photo-1544979590-37e9b47eb705?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        shortDesc: "Friedlicher Hochgebirgssee!",
+        description: "Ruheoase auf 2196m. Perfekt für Entspannung und Meditation in den Bergen.",
+        details: "~2,5h von Toulouse + Wanderung.",
+        routeLink: "https://www.google.com/search?q=Lac+d'Agalops+Pyrénées&hl=de"
+    },
+    {
+        id: 842,
+        title: "Val d'Azun",
+        type: "panorama",
+        lat: 42.882, lng: -0.224,
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        shortDesc: "★★ Wildes Tal!",
+        description: "Intimes, wildes Tal mit geheimen Routen. Col de Spandelles, Vallée de Ferrières.",
+        details: "~2h von Toulouse.",
+        routeLink: "https://www.google.com/search?q=Val+d'Azun+randonnée&hl=de"
+    },
+    {
+        id: 843,
+        title: "Vallée du Louron",
+        type: "panorama",
+        lat: 42.776, lng: 0.416,
+        image: "https://images.unsplash.com/photo-1464207687429-7505649dae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        shortDesc: "Ursprüngliches Tal!",
+        description: "Bewahrtes Bergtal mit malerischen Landschaften. Wandern, Radfahren, Skifahren.",
+        details: "~2h von Toulouse.",
+        routeLink: "https://www.google.com/search?q=Vallée+du+Louron&hl=de"
+    },
+    {
+        id: 844,
+        title: "Plateau de Benou",
+        type: "panorama",
+        lat: 43.050, lng: -0.460,
+        image: "https://images.unsplash.com/photo-1530587191325-3db32d826c18?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        shortDesc: "Familien-Hochplateau!",
+        description: "Weite Almwiesen mit sanften Wanderungen. Ideal für Familien. Kühe und Schafe!",
+        details: "~2h von Toulouse.",
+        routeLink: "https://www.google.com/search?q=Plateau+de+Benou+randonnée&hl=de"
     }
 ];
